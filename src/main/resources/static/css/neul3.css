@@ -1,0 +1,360 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);  /* 구글 웹 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+*{
+	margin:0 auto;
+	padding:0;
+	list-style: none;
+	 font-family: '맑은 고딕';  
+	/* font-family: 'Cute Font', cursive; */
+	
+	/* color:#333333; */
+	   color:#ffffff; 
+	 /* border: 1px solid green; */
+}
+a{
+	text-decoration:none;
+	display:block;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	font-size: 1.5em;	
+}
+
+#wrapper1{
+/* width: 96%;  */
+/* margin: 2% auto; */
+/* margin: 30% auto;  */
+
+width: 100%; 
+margin: 20% auto;
+
+
+ 
+/* 
+ margin-left: 6% ;
+ margin-top: 0% ;
+*/ 
+
+/*  border: 1px solid white;  */
+}
+
+
+img {
+  
+      /* width:100%; overflow: auto ;  */
+   
+      /*  height: 50vh; */
+	  /*  height: 50vh;  */
+	 /* vh 는 view point 기준의 height 비율이다 */ 
+	 
+        width: 100vmin;
+       /* height: 100vmin;  */
+	   vertical-align: middle;  
+  
+     /* border: 1px solid yellow; */
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+    width:100%; 
+	margin-top: 40% ;
+     
+   position: relative;  
+  /* margin-left:20% ; */
+  /*  border: 3px solid red; */
+}
+
+
+.back{            
+	float:right  ;
+	width:10%;  
+	height:auto;
+	position:absolute;
+	right:6%;
+	top:0%;
+	/* border: 3px solid white; */
+}
+
+.back img{
+	/* padding: 13%  */
+	/* width:40% ; */
+	/*
+	width:75px;
+	height:150px;
+	*/
+	width:75%;
+	height:75%;
+	/*
+	margin-top:2%;
+	margin-left:20%;	
+	*/
+    
+	margin-top:180%; 
+	/* margin-left: 80%; */
+	margin-left: 60%;
+	/*margin-right: 0%; */
+	/* margin-right: 30%;  */
+	/* border: 3px solid yellow; */
+}
+
+
+/* 2번째 */
+@media screen and (min-width:768px) and (max-width:1244px) {  
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	/* font-size: 20px;  */
+	font-size: 1.5em;
+}
+
+
+#wrapper1{
+width: 96%;
+/* margin: 2% auto; */
+margin: 11% auto;
+/* 
+ margin-left: 6% ;
+ margin-top: 0% ;
+*/ 
+ /*  border: 3px solid white;  */
+}
+
+
+img {
+  
+      width:100%; 
+    /*   height: 70vh;   */
+    
+  /* width: fit-content;  */
+   /*
+	width: 100vmin;
+    height: 100vmin; 
+   */
+   vertical-align: middle; 
+
+   /* border: 3px solid white;  */
+}
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+   width:100%; 
+   margin-top: 9% ;
+   position: relative;  
+  /* margin-left:20% ; */
+    /* border: 3px solid red; */
+}
+
+
+
+.back{            
+	float:right  ;
+	width:10%;  
+	height:auto;
+	position:absolute;
+	right:6%;
+	top:0%;
+	/* border: 3px solid white; */
+}
+
+.back img{
+	/* padding: 13%  */
+	/* width:40% ; */
+	/*
+	width:75px;
+	height:150px;
+    */
+	width:50%;
+	height:50%;
+	/*
+	margin-top:2%;
+	margin-left:20%;	
+	*/
+    
+	margin-top:0%;
+	 margin-left: 70%; 
+	/*margin-right: 0%; */
+	/* margin-right: 5%;  */
+
+	/* margin-top:0% ; */
+	/* margin-left:100%; */
+	/* border: 1px solid red;   */
+}
+
+}
+
+
+
+/* 3번째 */
+@media screen and (min-width:1245px) and (max-width:1719px) {  
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	/* font-size: 20px;  */
+	font-size: 1.5em;
+}
+
+
+#wrapper1{
+width: 96%;
+/* margin: 2% auto; */
+margin: 3% auto;
+/* 
+ margin-left: 6% ;
+ margin-top: 0% ;
+*/ 
+ /*  border: 3px solid white;  */
+}
+
+
+img {
+  
+      width:100%; 
+    /*   height: 70vh;   */
+    
+  /* width: fit-content;  */
+   /*
+	width: 100vmin;
+    height: 100vmin; 
+   */
+   vertical-align: middle; 
+
+   /* border: 3px solid green;  */
+}
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+   width:80%; 
+   margin-top: 2% ;
+   position: relative;  
+  /* margin-left:20% ; */
+    /* border: 3px solid red; */
+}
+
+
+
+.back{            
+	float:right  ;
+	width:10%;  
+	height:auto;
+	position:absolute;
+	right:6%;
+	top:0%;
+	/* border: 3px solid white; */
+}
+
+.back img{
+	/* padding: 13%  */
+	/* width:40% ; */
+	/*
+	width:75px;
+	height:150px;
+    */
+	width:40%;
+	height:40%;
+	/*
+	margin-top:2%;
+	margin-left:20%;	
+	*/
+    
+	margin-top:0%;
+	 margin-left: 70%; 
+	/*margin-right: 0%; */
+	/* margin-right: 5%;  */
+
+	/* margin-top:0% ; */
+	/* margin-left:100%; */
+	/* border: 1px solid red;   */
+}
+
+}
+
+/* 4번째 */
+@media screen and (min-width:1720px) {
+
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	font-size: 40px;
+}
+
+
+#wrapper1{
+width: 60%;
+/* margin: 2% auto; */
+margin: 2% auto;
+/* 
+ margin-left: 6% ;
+ margin-top: 0% ;
+*/ 
+ /* border: 3px solid white;  */
+}
+
+
+img {
+  
+   width:100%;    
+   height: 80vh;  
+   /* width: fit-content;  */
+   /* width: 100vmin;
+    height: 100vmin; */
+   vertical-align: middle; 
+  
+  /* border: 1px solid yellow; */
+  
+   /*  border: 3px solid red;   */
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+   width:100%; 
+   margin-top: 5% ;
+   position: relative;  
+  /* margin-left:20% ; */
+   /* border: 3px solid red; */
+}
+
+.back{            
+	float:right  ;
+	width:10%;  
+	height:auto;
+	position:absolute;
+	right:6%;
+	top:0%;
+	/* border: 3px solid white; */
+}
+
+.back img{
+	/* padding: 13%  */
+	/* width:40% ; */
+	
+	/* width:75px; */
+	/* height:150px; */
+	width:50%;
+	height: 50%;
+	
+	/*
+	margin-top:2%;
+	margin-left:20%;	
+	*/
+    
+	margin-top:0%;
+	margin-left:80%;
+	/* border: 3px solid green;   */
+}
+
+}

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+span.text01 {
+	font-size: 20px;
+	color: #ffffff;
+	font-family: Arial;
+	font-weight: bold;
+	
+}
+
+span.text02 {
+	font-size: 20px;
+	color: #252525;
+	font-family: Arial;
+	font-weight: bold;
+	
+}
+
+input.type01 {
+	
+	border: 1px solid #c0c0c0;
+	background-color: #ffffff;
+	width: 220px;
+	padding: 5px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+input.button01 {
+	
+	border: 2px solid #ffffff;
+	background-color: #a0a0a0;
+	width: 180px;
+	height: 40px;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: malgun;
+}
+
+#textarea01 {
+	
+	border: 1px solid #c0c0c0;
+	background-color: #ffffff;
+	width: 220px;
+	padding: 5px;
+	font-family: Arial;
+	font-size: 20px;
+}
